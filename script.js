@@ -1,3 +1,4 @@
+
 var jogador1;
 var jogador2;
 var auxiliar = 1;
