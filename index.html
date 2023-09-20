@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mitr:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <title>Jogo da Velha</title>
+</head>
+<body onload="solicitarNomes()">
+    <header>
+        <div class="espaco-cabecalho">
+            <a href="#" id="reiniciarJogo">Reiniciar</a>
+            <span class="titulo">Jogo da Velha</span>
+        </div>
+    </header>
+
+    <content>
+        <p id="vezDoJogador"></p>
+        <div id="jogo">
+            <div class="linha">
+                <div class="coluna" id="casa1"></div>
+                <div class="coluna" id="casa2"></div>
+                <div class="ultimaColuna" id="casa3"></div>
+            </div>
+            <div class="linha">
+                <div class="coluna" id="casa4"></div>
+                <div class="coluna" id="casa5"></div>
+                <div class="ultimaColuna" id="casa6"></div>
+            </div>
+            <div class="ultimaLinha">
+                <div class="coluna" id="casa7"></div>
+                <div class="coluna" id="casa8"></div>
+                <div class="ultimaColuna" id="casa9"></div>
+            </div>
+        </div>
+        <div id="resultado"></div>
+    </content>
+    
+    <footer>
+        <p>©️ Lohayne Muriel</p>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

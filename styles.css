@@ -1,0 +1,126 @@
+header{
+    width: 100%;
+    height: 50px;
+    background-color: blueviolet;
+    color: white;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    position: relative;
+    margin: 0;
+}
+
+#reiniciarJogo {
+    font-size: 16px;
+    border-style: none;
+    background-color: blueviolet;
+    color: white; /* Cor do link (pode personalizar conforme desejado) */
+    margin-right: 20px; /* Espaçamento entre a opção de reiniciar e o título */
+}
+
+.titulo{
+    font-family: 'Mitr';
+    font-weight: 600;
+    color: white;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    font-size: 35px;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+content{
+    display:flex;
+    flex-direction: column;
+    margin-top:1%;
+    margin-bottom: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
+    width:60%;
+    height: 500px;
+    border-style:dashed;
+    border-radius: 5px;
+    border-color: blueviolet;
+}
+
+#jogo{
+    height: 400px;
+    width: 90%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 0;
+    background-color: #cc9af2;
+    border-radius: 10px;
+}
+
+.linha{
+    height: 130px;
+    border-bottom: solid 2px;
+    padding: 0;
+}
+
+.ultimaLinha{
+    height: 130px;
+}
+
+.coluna{
+    width: 33%;
+    height: 133px;
+    border-right: solid 2px;
+    float: left;
+    background-repeat:no-repeat;
+    background-position: center;
+}
+
+.ultimaColuna{
+    width: 33.6%;
+    float: left;
+    height: 133px;
+    background-repeat:no-repeat;
+    background-position: center;
+}
+
+
+#resultado{
+    font-family: 'Mitr';
+    font-weight: 500;
+    color: blueviolet;
+    text-align: center;
+    margin: 0;
+    padding-top: 10px;
+    width: 100%;
+    height: 10px;
+}
+
+#vezDoJogador{
+    font-family: 'Mitr';
+    font-weight: 500;
+    color: blueviolet;
+    text-align: center;
+    margin: 0;
+    padding-top: 10px;
+    width: 100%;
+}
+
+footer{
+    font-family: 'Mitr';
+    font-weight: 500;
+    width: 100%;
+    height: 30px;
+    background-color: blueviolet;
+    color: white;
+    border-radius: 15px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
